@@ -148,6 +148,35 @@ a {
 .red{
   background-color: var(--Soft-red);
 }
+.block-wrapper{
+  position: relative;
+}
+.text-block-overlay{
+  position: absolute;
+  z-index: 1;
+  top: 66%;
+  padding: 0 2rem;
+}
+
+.tite{
+  font-family:"Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.description1{
+  font-size: 0.99rem;
+  text-align: center;
+  line-height: 1.5rem;
+  margin: 2.8rem 10; 
+}
+.green-tint{
+  color: var(--Dark-desaturated-cyan);
+}
+.blue-tint{
+  color: var(--Dark-blue);
+}
 
 
 
@@ -211,19 +240,5 @@ a {
     letter-spacing: 0.3rem;
     color: var(--White);
   }
-  .middle-section{
-    display:flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-  }
-  .img-mobile{
-    display: none;
-  }
-  .img-desktop{
-    display:block ;
-    flex: 50%;
-  }
-  .text-block{
-    flex: 50%;
-  }
+
 }
