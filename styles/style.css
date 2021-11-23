@@ -80,9 +80,6 @@ a {
   width: 100%;
 }
 .img-mobile {
-  /* margin-top: -5.9rem; */
-}
-.img-mobile {
   display: block;
   width: 100%;
 
@@ -148,6 +145,35 @@ a {
 .red{
   background-color: var(--Soft-red);
 }
+.block-wrapper{
+  position: relative;
+}
+.text-block-overlay{
+  position: absolute;
+  z-index: 1;
+  top: 66%;
+  padding: 0 2rem;
+}
+
+.tite{
+  font-family:"Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.description1{
+  font-size: 0.99rem;
+  text-align: center;
+  line-height: 1.5rem;
+  margin: 2.8rem 10; 
+}
+.green-tint{
+  color: var(--Dark-desaturated-cyan);
+}
+.blue-tint{
+  color: var(--Dark-blue);
+}
 
 
 
@@ -211,19 +237,122 @@ a {
     letter-spacing: 0.3rem;
     color: var(--White);
   }
-  .middle-section{
-    display:flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-  }
-  .img-mobile{
-    display: none;
-  }
-  .img-desktop{
-    display:block ;
-    flex: 50%;
-  }
-  .text-block{
-    flex: 50%;
-  }
+
+}
+.testimonials{
+  position: relative;
+
+}
+.white-testimonials{
+  text-align: center;
+  font-family: "Fraunces", sans-serif;
+  width: 500px;
+  color: lightgrey;
+  font-size: 2.5rem;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+.image-emily{
+  position: absolute;
+  display: block;
+  left: 250px;
+  border-radius: 5000px;
+  max-width: 130px;
+  height: auto;
+  margin-top: 30px;
+}
+.comment-1{
+  text-align: center;
+  margin-top: 240px;
+  color: var(--Dark-desaturated-cyan);
+  font-size: 2.0rem;
+  font-family: barlow;
+
+}
+.emily{
+  text-align: center;
+  margin-top: 50px;
+  color: var(--Very-dark-desaturated-blue);
+}
+.office{
+  text-align: center;
+  margin-top: 20px;
+  font-family: barlow;
+  color: gray;
+}
+.image-thomas{
+  position: absolute;
+  display: block;
+  left: 250px;
+  border-radius: 5000px;
+  max-width: 130px;
+  height: auto;
+  margin-top: 100px;
+}
+.comment-2{
+  text-align: center;
+  margin-top: 300px;
+  color: var(--Dark-desaturated-cyan);
+  font-size: 2.0rem;
+  font-family: barlow;
+
+}
+.thomas{
+  text-align: center;
+  margin-top: 50px;
+  color: var(--Very-dark-desaturated-blue);
+
+}
+.office-1{
+  text-align: center;
+  margin-top: 20px;
+  font-family: barlow;
+  color: gray;
+
+}
+.image-jennie{
+  position: absolute;
+  display: block;
+  left: 250px;
+  border-radius: 5000px;
+  max-width: 130px;
+  height: auto;
+  margin-top: 100px;
+}
+.comment-3{
+  text-align: center;
+  margin-top: 300px;
+  color: var(--Dark-desaturated-cyan);
+  font-size: 2.0rem;
+  font-family: barlow;
+
+}
+.jennie{
+  text-align: center;
+  margin-top: 50px;
+  color: var(--Very-dark-desaturated-blue);
+
+}
+.office-2{
+  text-align: center;
+  margin-top: 20px;
+  font-family: barlow;
+  color: gray;
+
+}
+.milkbottles-mobile{
+  position: absolute;
+  display: block;
+  margin-left: 0px;
+  margin-top: 100px;
+  max-width: 290px;
+  height: auto;
+}
+.orange-mobile{
+  position: absolute;
+  display: block;
+  margin-left: 376px;
+  max-width: 290px;
+  height: auto;
+  margin-top: 100px;
 }
