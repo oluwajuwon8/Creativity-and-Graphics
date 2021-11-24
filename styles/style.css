@@ -372,9 +372,14 @@ a {
     color: var(--White);
   }
 
+
   .img-mobile{
-    display: none;
-    width: 100%;
+    flex: 1;
+    width: 50%;
+    height: 650px;
+    /* object-fit: contain; */
+    /* display: none !important; */
+  
   }
 
   .upper-sec{
@@ -391,23 +396,33 @@ a {
   .sec-3{
     display: flex;
     height: 600px;
+    margin-bottom: .5rem;
   }
 
   .text-block{
     width: 50%;
-    padding: 0rem 9.8rem 8.8rem 7.8rem;
+    padding: 0rem 7rem 8.8rem 6rem;
     margin-top: 150px;
     border: 1px;
     text-align: left;
+    align-items: start;
+  }
+
+  .text-block-overlay{
+    margin-top: 1rem;
   }
 
   .title{
     text-align: left;
-    padding-right: 10rem;
+    padding-right: 7rem;
   }
 
   .description{
     text-align: left;
+  }
+
+  .btn-wrapper{
+    margin-left: -.5rem;
   }
 
   .learn{
@@ -446,19 +461,26 @@ a {
   }
   .sec-3 > img{
     max-height: 30vh;
+    margin-bottom: 1px;
   };
 
-/* .img-desktop{
-  min-height: unset !important;
-	height: 30vh !important;
-} */
+.img-desktop{
+  display: block !important;
+  /* min-height: unset !important; */
+	height: 600px;
+  object-fit: unset;
+  width: 100%;
+}
 
 /* .sec-3{
   height: 60vh;
 } */
 
 .client-testimonials{
-  padding: 7rem 10rem 5rem 10rem;
+  padding: 8rem 10rem 5rem 10rem;
+  margin: 10rem 1rem 1 rem 2rem;
+  height: 30rem;
+  border: 0px;
 }
 .clients-wrapper{
   display: flex;
@@ -466,10 +488,27 @@ a {
 .client{
   margin: 2rem 4 rem 4 rem 3rem;
   padding: 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .client > img {
   width: 7rem;
   height: 7rem;
+}
+.gallery{
+  flex: 1;
+  width: 25%;
+}
+
+.lists{
+  text-align: center;
+  padding-left: 30rem;
+}
+
+.footer-footer{
+  text-align: center;
+  
 }
 
 
