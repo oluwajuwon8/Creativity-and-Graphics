@@ -185,7 +185,13 @@ a {
 @media screen and (min-width: 992px) {
   .hero {
     background-image:url(../images/images/desktop/image-header.jpg);
+   background-size: 100%;
+   background-position: 100%;
+   /* background-attachment: scroll; */
+   margin-bottom: .01%;
   }
+
+
   #nav-btn {
     display: none;
   }
@@ -240,5 +246,89 @@ a {
     letter-spacing: 0.3rem;
     color: var(--White);
   }
+
+  .img-mobile{
+    display: none;
+  }
+
+
+
+
+  .upper-sec{
+    display: flex;
+    height: 600px;
+    
+  }
+
+  .sec-2{
+    display: flex;
+    height: 600px;
+  }
+
+  .sec-3{
+    display: flex;
+    /* height: 60vh; */
+  }
+
+  .text-block{
+    width: 50%;
+    padding: 0rem 9rem 0 5rem;
+    margin-top: 150px;
+    border: 1px;
+    text-align: left;
+  }
+
+  .title{
+    text-align: left;
+  }
+
+  .description{
+    text-align: left;
+  }
+
+  .learn{
+    text-align: left;
+  }
+  
+  
+  .upper-sec > img{
+    flex: 1;
+    /* margin-top: 5rem; */
+    width: 50%;
+    height: auto;
+  }
+  .upper-sec > div{
+    flex: 1;
+    border: none;
+    width: 50%;
+    height: auto;
+  }
+
+  .sec-2 > img{
+    flex: 1;
+    width: 50%;
+    height: auto;
+  }
+  .sec-2 > div{
+    flex: 1;
+    border: none;
+    width: 50%;
+    height: auto;
+  }
+  .sec-3 > div {
+    flex: 1;
+    width: 50%;
+    height: auto;
+  }
+
+.img-desktop{
+  min-height: unset !important;
+	height: 30vh !important;
+}
+
+/* .sec-3{
+  height: 60vh;
+} */
+
 
 }
