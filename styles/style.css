@@ -230,10 +230,82 @@ a {
   padding: 1rem 0;
   font-family: "Barlow", sans-serif;
 }
-
-
-
-
+/* footer section*/
+.container-1{
+  max-width: 1920px;
+  margin: auto;
+  background: white;
+  overflow: auto;
+}
+.gallery{
+  margin: 0px;
+  border: 0px solid white;
+  float: left;
+  width: 207px;
+}
+.gallery img{
+  width: 100%;
+  height: auto;
+}
+.footer-footer{
+  background: mediumspringgreen;
+  width: 100%;
+  overflow: auto;
+}
+.lists{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.final-list{
+  float: left;
+}
+.linked{
+  width: 118px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background:  mediumspringgreen;
+  font-size: 18px;
+  color: seagreen;
+  padding: 10px;
+  font-family: "Barlow", sans-serif;
+  text-transform: none;
+}
+.linked:hover{
+  background: white;
+  color: black;
+}
+.footer-logo{
+  max-width: 200px;
+  margin-top: 60px;
+  background:  mediumspringgreen;
+  height: auto;
+  margin-left: 107px;
+  margin-bottom: 30px;
+}
+.sc-linear{
+  margin-left: 76px;
+  padding: 0;
+  list-style: none;
+  float: left;
+  border: 50px solid  mediumspringgreen;
+}
+.sc-list{
+  float: left;
+}
+.horizontal{
+  width: 50px;
+  display: block;
+  background: mediumspringgreen;
+  color: var(--Dark-moderate-cyan);
+  padding: 0;
+  
+}
+.sc-media{
+  max-width: 20px;
+  height: auto;
+}
 /* desktop */
 @media screen and (min-width: 992px) {
   .hero {
